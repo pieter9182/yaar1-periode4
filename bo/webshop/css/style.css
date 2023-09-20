@@ -1,0 +1,734 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between; 
+    padding-right: 5rem;
+
+}
+
+.buttons__1{
+    text-decoration: none;
+    color:#ffff;
+}
+.buttons__2{
+    text-decoration: none;
+    color:#ffff;
+}
+
+.buttons__1:hover{
+    color: black;
+}
+
+.buttons__2:hover{
+    color: green;
+}
+
+.buttons__productpagina{
+    text-decoration: none;
+    color:red;
+
+}
+
+.logo__1{
+    padding-left: 4rem;
+    height: 10vh;
+}
+.pagina__1{
+    text-decoration: none;
+}
+
+.productpagina{
+    padding:2rem ;
+    display: flex;
+    gap: 4rem;
+    font-size: 1.5rem;
+}
+
+
+
+.section1{
+    width: 100%;
+    height: 70rem;
+    background-image: url('../img/achtergrond-1.webp');
+    background-position: top;
+    background-size: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slogan-section{
+    margin-left: 10rem;
+    font-family:"HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+
+.voorpagina__button{
+    display: block;
+    height: 12rem;
+    width: 24rem;
+    border:0.2rem solid white;
+    background-color: Transparent;
+    border-width: 0.2rem;
+    color: white;
+    font-size: 2rem;    
+    text-decoration: none;
+    text-align: center;
+    line-height: 12rem;
+
+  
+}
+.voorpagina__button:hover {
+    cursor: pointer;
+    background-color:white;
+    border:0.2rem solid white;
+    color: black;
+} 
+
+.info__button__1{
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.section2{
+    width: 100%;
+    height: 200rem;
+    display: grid;
+    grid-template-columns: repeat(26,1fr);
+    grid-template-rows:repeat(17,1fr);
+    background: #fff;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-weight: 900;
+}
+
+.bestseller{
+    grid-column: 2/13;
+    grid-row: 2/10;
+    border:0.01rem solid grey;
+    position: relative;
+}
+
+.bestseller > img{
+    height: 100%;
+    width: 80%;
+    margin-left: 9rem;
+}
+
+.text__bestseller{
+    grid-column: 14/25;
+    grid-row: 2/10;
+    background: green;
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10rem;
+}
+
+.text__bestseller_inblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 0 16rem 5rem;
+}
+
+.bestseller__button{
+    height: 12rem;
+    width: 70rem;
+    font-size: 4rem;
+    font-weight: 400;
+    background: green;
+    border:0.2rem solid white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 12rem;
+}
+
+.bestseller__button:hover{
+    cursor: pointer;
+    background: white;
+    border:0.2rem solid white;
+    color: green;
+}
+
+.bestseller__2{
+    grid-column: 2/7;
+    grid-row: 12/17;
+    border:0.01rem solid grey;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bestseller__2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+
+
+.bestseller__3{
+    grid-column: 8/13;
+    grid-row: 12/17;
+    border:0.01rem solid grey;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bestseller__3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.bestseller__4{
+    grid-column: 14/19;
+    grid-row: 12/17;
+    border:0.01rem solid grey;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bestseller__4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.bestseller__5{
+    grid-column: 20/25;
+    grid-row: 12/17;
+    border:0.01rem solid grey;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bestseller__5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.section3{
+    width: 100%;
+    height: 50rem;
+    display: grid;
+    grid-template-columns: repeat(26,1fr);
+    grid-template-rows:repeat(12,1fr);
+}
+
+.stappenplan__1 > img{
+    height: 100%;
+    width: 100%;
+}
+.stappenplan__2 > img{
+    height: 100%;
+    width: 100%;
+}
+.stappenplan__3 > img{
+    height: 100%;
+    width: 100%;
+}
+.stappenplan__4 > img{
+    height: 100%;
+    width: 100%;
+}
+
+.stappenplan__1 > h1{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.stappenplan__1 > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stappenplan__2 > h1{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stappenplan__2 > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stappenplan__3 > h1{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stappenplan__3 > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stappenplan__4 > h1{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stappenplan__4 > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.stappenplan__1{
+    grid-column: 2/7;
+    grid-row: 2/10;
+}
+
+.stappenplan__2{
+    grid-column: 8/13;
+    grid-row: 2/10;
+}
+
+.stappenplan__3{
+    grid-column: 14/19;
+    grid-row: 2/10;
+}
+
+.stappenplan__4{
+    grid-column: 20/25;
+    grid-row: 2/10;
+}
+
+/* groote product info*/
+
+.section__product__info{
+    height: 80rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(52,1fr);
+    grid-template-rows:repeat(12,1fr);
+
+}
+
+.groote_pruduct{
+    grid-column: 8/36;
+    grid-row: 2/12;
+}
+
+.groote_pruduct img{
+    width: 100%;
+    height: 100%;
+}
+
+.grote_product_text{
+    grid-column:35/45;
+    grid-row: 3/11;
+    background-color: #0065ec;
+    border-radius: 1rem;
+}
+
+.grote_product_text p{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "HurmeHEMA","Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.manga_button_box{
+    display: flex;
+    height: 8rem;
+    width: 35rem;
+    font-size: 4rem;
+    font-weight: 600;
+    background: #0065ec;
+    border:0.3rem solid white;
+    color:white ;
+    text-decoration: none;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* reviews*/
+
+.section{
+    height: 100rem; /* placehorder dus het heeft een autom,atiese hooghte zonder content*/
+
+}
+
+.section4{
+    margin-top: 8rem;
+    background: white;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.arrow{
+    width: 10%;
+    height: 100%;
+    background: white;
+    font-size: 300%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 8rem;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-bottom: 8rem;
+
+}
+
+.review{
+    width: 40rem;
+    min-height: 20rem ;
+    list-style: none;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2), 
+    inset 0 -1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+}
+
+.review:nth-of-type(4), .review:nth-of-type(5), .review:nth-of-type(6){
+    display: none;
+}
+
+.quote{
+    font-size: 500%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0.5;
+
+}
+.review img{
+    height: 40%;
+    width: 40%;
+}
+
+.stars{
+    color: gold;
+}
+
+.review p{
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+    font-weight: 500;
+    border-bottom: 0.5rem solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* footer*/
+
+.footer_section{
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    gap: 15rem;
+    background: #9C1AFF;
+}
+
+.links__footer{
+    margin-left: 20rem;
+    height: 100%;
+    width: 20%;
+    background: #9C1AFF;
+
+}
+.links__footer h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #f1efeb;
+}
+
+.links__footer h2 a{
+    text-decoration: none;
+    color:#f1efeb;
+}
+
+
+
+.rechts__footer{
+    height: 100%;
+    width: 20%;
+    background: #9C1AFF;
+}
+
+.rechts__footer h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #f1efeb;
+}
+.rechts__footer h2 a{
+    text-decoration: none;
+    color:#f1efeb;
+}
+
+
+.rechts2__footer h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #f1efeb;
+}
+.rechts2__footer h2 a{
+    text-decoration: none;
+    color:#f1efeb;
+}
+
+.rechts2__footer{
+    height: 100%;
+    width: 20%;
+    background: #9C1AFF;
+
+}
+
+/* one piece manga box*/
+
+.productinfo{
+    height: 160rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(26,1fr);
+    grid-template-rows:repeat(36,1fr);
+} 
+
+.foto_product1{
+    grid-column: 2/16;
+    grid-row: 2/18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DADADC;
+    border-radius: 1rem;
+}
+
+.foto_product1 img{
+    height: 90%;
+    width: 90%;
+
+}
+
+.foto_product1_titel{
+    grid-column: 18/22;
+    grid-row: 2/6;
+}
+
+.foto_product1_titel > h2{
+    font-weight: 700;
+    color: red;
+    font-size: 2rem;
+    font-family: sans-serif; 
+}
+
+.foto_product1_titel > h1{
+    font-weight: 700;
+    color: #323232;
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+.foto_product1_titel > h3{
+    
+}
+
+.foto_product1_titel > h3 >.sterren{
+    color: #f8b840;
+}
+
+
+
+/*filter 1*/
+.manga_body{
+    font-size: 2rem;
+    background: #eee;
+    font-family: sans-serif;
+    padding: 8rem;
+    overflow: hidden;
+}
+
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.inputs > div{
+    display: flex;
+    align-items: center;
+    width: 40rem;
+}
+
+.filter{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #eee;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0  0.5rem 0 rgba(0,0,0,0.2);
+
+}
+
+.filter:checked{
+    background: red;
+}
+
+.filter:checked ~ .label{
+    text-decoration: underline;
+}
+
+.mangas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.manga{
+    list-style: none;
+    width: 25rem;
+    height: 30rem;
+    transition: 0.2s transform;
+    flex-grow: 1;
+}
+
+.manga:hover{
+    transform: scale(1.02) translateY(-0.7rem);
+    cursor: pointer;
+}
+
+.manga img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+
+
+@keyframes popup{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        filter:blur(10px);
+    }
+    to{
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+@media  screen and(max-width: 50rem) {
+    .arrow{
+       display: none; 
+    }
+    .reviews{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
